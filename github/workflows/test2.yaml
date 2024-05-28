@@ -1,0 +1,10 @@
+name: work test
+on:
+	issues:
+		types:
+			- closed
+jobs:
+	check_lastest_contributor:
+   runs-on: ubuntu-latest
+   steps:
+   
